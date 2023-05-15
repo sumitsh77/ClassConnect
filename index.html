@@ -124,13 +124,13 @@
     <div
       class="flex flex-col md:flex-row justify-between max-w-6xl mx-auto text-center items-center text-white space-y-6 md:space-y-0">
       <div>
-        <h1 class="text-3xl font-bold font-serif">SUBMIT YOUR CONTACT NUMBER</h1>
+        <h1 class="text-3xl font-bold font-serif">INSERT YOUR EMAIL ACCOUNT</h1>
       </div>
       <!-- input section -->
-      <div class="w-full lg:w-1/2 space-y-2">
-        <input type="number" placeholder="Contact Number" class="input text-black px-20 py-6" />
-        <a href="#" class="btn bg-green-400 font-bold">Sumbit</a>
-      </div>
+      <form name="contact" method="post" data-netlify="true" class="w-full lg:w-1/2 space-y-2">
+        <input type="email" name="email" placeholder="Enter your Email" class="input text-black px-20 py-6" />
+        <button class="btn bg-green-400 font-bold">Sumbit</button>
+      </form>
     </div>
   </div>
   <br>
