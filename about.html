@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Class 10</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="/dist/output.css">
   <link rel="stylesheet" href="index.css">
   <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.6/dist/full.css" rel="stylesheet" type="text/css" />
@@ -65,31 +66,35 @@
     <br>
     <ul class="text-white font-bold font-display max-w-2xl  mx-auto
     md:text-xl text-md px-4">
-      <li>1. Enhanced Accessibility: A school website provides students, parents, and staff with easy access to
+      <li data-aos="fade-left">1. Enhanced Accessibility: A school website provides students, parents, and staff with
+        easy access to
         important resources such as schedules, curriculum, and educational materials. This can be especially helpful for
         students who may need extra assistance or for parents who want to stay informed and involved in their child's
         education.</li>
       <br>
-      <li class="text-right">2. Branding: A school website is a great way to showcase the school's brand and values. It
+      <li data-aos="fade-right" class="text-right">2. Branding: A school website is a great way to showcase the school's
+        brand and values. It
         can be designed to reflect the school's ethos and culture, and can be used to promote the school's achievements
         and successes</li>
       <br>
-      <li class="text-left">
+      <li data-aos="fade-left" class="text-left">
         3. Online Learning & E-Learning :- With the increasing use of technology in education, schools can integrate
         online learning into their website. Online quizzes, virtual classrooms, and interactive learning modules can all
         be accessed through the website, providing students with a more flexible and engaging learning experience.
       </li>
       <br>
-      <li class="text-right">
+      <li data-aos="fade-right" class="text-right">
         4. Online Admissions: With our online admissions feature, prospective students can easily apply to your school
         from anywhere in your area. This can help to grow your school.
       </li>
       <br>
-      <li class="text-left">5. Social Media Integration: Linking the school's website to its social media accounts can
+      <li data-aos="fade-left" class="text-left">5. Social Media Integration: Linking the school's website to its social
+        media accounts can
         help expand its reach and make it easier to connect with the school community. This can also help increase
         engagement and encourage interaction with the school.</li>
       <br>
-      <li class="text-right">6. Mobile Optimization: With more and more people accessing the internet from their mobile
+      <li data-aos="fade-right" class="text-right">6. Mobile Optimization: With more and more people accessing the
+        internet from their mobile
         devices, it's important that your website is mobile-friendly. Our websites are optimized for mobile devices,
         ensuring that your content looks great on any screen size.</li>
     </ul>
@@ -140,6 +145,14 @@
       </div>
     </div>
   </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(({
+      offset: 400,
+      duration: 1000,
+      easing: "ease-in-out",
+    }));
+  </script>
 </body>
 
 </html>
